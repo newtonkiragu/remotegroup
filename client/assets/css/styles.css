@@ -9,7 +9,6 @@
  * URL: http://
  */
 
-
 /* ==========================================================================
     Base Styles and Bootstrap Modifications
    ========================================================================== */
@@ -26,7 +25,6 @@ body {
     font-size: 1em;
     line-height: 1.4;
 }
-
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -46,7 +44,6 @@ body {
     text-shadow: none;
 }
 
-
 /*
  * A better looking default horizontal rule
  */
@@ -60,7 +57,6 @@ hr {
     padding: 0;
 }
 
-
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
@@ -69,7 +65,6 @@ img {
     vertical-align: middle;
 }
 
-
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -77,7 +72,6 @@ img {
 textarea {
     resize: vertical;
 }
-
 
 /* ==========================================================================
     General styles
@@ -128,8 +122,8 @@ body {
     border: 0px solid transparent;
 }
 
-.navbar-default .navbar-nav>li>a:hover,
-.navbar-default .navbar-nav>li>a:focus {
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus {
     background-color: #16a085;
     color: white;
 }
@@ -157,7 +151,6 @@ a img {
     background: #f5f5f5;
 }
 
-
 /* Titles */
 
 h1,
@@ -170,7 +163,6 @@ h6 {
     font-weight: 300;
     color: #333;
 }
-
 
 /* Paragraph & Typographic */
 
@@ -236,16 +228,14 @@ blockquote cite {
 }
 
 blockquote cite:before {
-    content: "-- "
+    content: "-- ";
 }
-
 
 /* Images */
 
 .overflow-image {
     margin-top: -65px;
 }
-
 
 /* Links */
 
@@ -274,7 +264,6 @@ a:after {
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
-
 
 /* ==========================================================================
     Wrap Sections
@@ -359,7 +348,6 @@ a:after {
     color: white;
 }
 
-
 /* ==========================================================================
     Box Sections
    ========================================================================== */
@@ -371,7 +359,6 @@ a:after {
 .white p {
     padding-top: 25px;
 }
-
 
 /* Section Dividers */
 
@@ -412,30 +399,29 @@ a:after {
     font-size: 25px;
 }
 
-
 /* Section Dividers Backgrounds */
 
 .divider1 {
-    background-image: url('../img/bg/divider1.jpg')
+    background-image: url("../img/bg/divider1.jpg");
 }
 
 .divider2 {
-    background-image: url('../img/bg/divider2.jpg')
+    background-image: url("../img/bg/divider2.jpg");
 }
 
 .divider3 {
-    background-image: url('../img/bg/divider3.jpg');
+    background-image: url("../img/bg/divider3.jpg");
     margin-top: 0px;
 }
 
 .divider4 {
-    background-image: url('../img/bg/divider4.jpg')
+    background-image: url("../img/bg/divider4.jpg");
 }
 
 .divider6 {
-    background-image: url('../img/bg/divider6.jpg')
+    background-image: url("../img/bg/divider6.jpg");
+    margin-bottom: -1%;
 }
-
 
 /* ==========================================================================
     Services Section
@@ -478,13 +464,12 @@ a:after {
     padding: 15px 20px;
     background: #e6eaed;
     display: block;
-    height: auto
+    height: auto;
 }
 
 .service-content p:last-child {
     margin: 0;
 }
-
 
 /* ==========================================================================
     Image Mask
@@ -530,7 +515,6 @@ a:after {
     color: #fff;
     font-size: 13px;
 }
-
 
 /* Caption Style */
 
@@ -586,7 +570,6 @@ a:after {
     right: 30px;
 }
 
-
 /* ==========================================================================
     Blog Section
    ========================================================================== */
@@ -612,33 +595,42 @@ a:after {
     background: #f2f2f2;
 }
 
-
 /* ==========================================================================
     MEDIA QUERIES
    ========================================================================== */
 
-@media screen and (max-width:1050px),
-screen and (max-device-width:1050px) {
+@media screen and (max-width: 1050px), screen and (max-device-width: 1050px) {
     body .header {
         background-attachment: scroll;
     }
 }
 
-
 /*ipad portrait*/
 
-@media only screen and (min-device-width:768px) and (max-device-width: 1024px) and (orientation: portrait) {
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     .header {
         background-attachment: scroll;
     }
 }
 
-@media screen and (max-width:769px) {
+@media screen and (max-width: 769px) {
     #headerwrap h1 {
         font-size: 80px;
     }
+
     #headerwrap p {
         font-size: 30px;
         line-height: 38px;
     }
+}
+
+/*header*/
+
+.main-header {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(../img/bg/bg.JPG) no-repeat center top;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 350px;
 }
