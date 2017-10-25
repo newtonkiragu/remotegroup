@@ -8,6 +8,7 @@
  * URL: http://blacktie.co/
  */
 
+
 /* ==========================================================================
    Base Styles and Bootstrap Modifications
    ========================================================================== */
@@ -24,6 +25,7 @@ body {
     font-size: 1em;
     line-height: 1.4;
 }
+
 
 /*
  * Remove text-shadow in selection highlight: h5bp.com/i
@@ -43,6 +45,7 @@ body {
     text-shadow: none;
 }
 
+
 /*
  * A better looking default horizontal rule
  */
@@ -56,6 +59,7 @@ hr {
     padding: 0;
 }
 
+
 /*
  * Remove the gap between images and the bottom of their containers: h5bp.com/i/440
  */
@@ -64,6 +68,7 @@ img {
     vertical-align: middle;
 }
 
+
 /*
  * Allow only vertical resizing of textareas.
  */
@@ -71,6 +76,7 @@ img {
 textarea {
     resize: vertical;
 }
+
 
 /* ==========================================================================
    General styles
@@ -121,8 +127,8 @@ body {
     border: 0px solid transparent;
 }
 
-.navbar-default .navbar-nav > li > a:hover,
-.navbar-default .navbar-nav > li > a:focus {
+.navbar-default .navbar-nav>li>a:hover,
+.navbar-default .navbar-nav>li>a:focus {
     background-color: #16a085;
     color: white;
 }
@@ -150,14 +156,23 @@ a img {
     background: #f5f5f5;
 }
 
+
 /* Titles */
-h1, h2, h3, h4, h5, h6 {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: "Raleway";
     font-weight: 300;
     color: #333;
 }
 
+
 /* Paragraph & Typographic */
+
 p {
     line-height: 28px;
     margin-bottom: 25px;
@@ -223,12 +238,16 @@ blockquote cite:before {
     content: "-- ";
 }
 
+
 /* Images */
+
 .overflow-image {
     margin-top: -65px;
 }
 
+
 /* Links */
+
 a {
     color: #3498db;
     word-wrap: break-word;
@@ -254,6 +273,7 @@ a:after {
     -o-transition: color 0.1s ease-in, background 0.1s ease-in;
     transition: color 0.1s ease-in, background 0.1s ease-in;
 }
+
 
 /* ==========================================================================
    Wrap Sections
@@ -338,6 +358,7 @@ a:after {
     color: white;
 }
 
+
 /* ==========================================================================
    Box Sections
    ========================================================================== */
@@ -350,7 +371,9 @@ a:after {
     padding-top: 25px;
 }
 
+
 /* Section Dividers */
+
 .section-divider {
     z-index: 999;
     width: 100%;
@@ -388,6 +411,7 @@ a:after {
     font-size: 25px;
 }
 
+
 /* Section Dividers Backgrounds */
 
 .divider1 {
@@ -414,6 +438,7 @@ a:after {
     -o-background-size: cover;
     background-size: cover;
 }
+
 
 /* ==========================================================================
    Services Section
@@ -463,6 +488,7 @@ a:after {
     margin: 0;
 }
 
+
 /* ==========================================================================
    Image Mask
    ========================================================================== */
@@ -508,7 +534,9 @@ a:after {
     font-size: 13px;
 }
 
+
 /* Caption Style */
+
 .mask figure {
     overflow: hidden;
 }
@@ -561,6 +589,7 @@ a:after {
     right: 30px;
 }
 
+
 /* ==========================================================================
    Blog Section
    ========================================================================== */
@@ -586,17 +615,21 @@ a:after {
     background: #f2f2f2;
 }
 
+
 /* ==========================================================================
    MEDIA QUERIES
    ========================================================================== */
 
-@media screen and (max-width: 1050px), screen and (max-device-width: 1050px) {
+@media screen and (max-width: 1050px),
+screen and (max-device-width: 1050px) {
     body .header {
         background-attachment: scroll;
     }
 }
 
+
 /*ipad portrait*/
+
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
     .header {
         background-attachment: scroll;
@@ -607,7 +640,6 @@ a:after {
     #headerwrap h1 {
         font-size: 80px;
     }
-
     #headerwrap p {
         font-size: 30px;
         line-height: 38px;
